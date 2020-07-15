@@ -299,7 +299,20 @@ body{
     background: rgba(194, 194, 194, 0.329);
     outline: none;
 }
-
-
+.pieRocket{
+    background:rgba(0, 0, 0, 0.884);
+}
+.pieRocket h1{
+    
+    
+    color: blanchedalmond;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    margin-left: 1100px;
+    padding-top: 15px;
+    
+}
 
 /*minuto 3h 43 min*/
