@@ -300,6 +300,7 @@ body{
     outline: none;
 }
 .pieRocket{
+    margin: auto;
     background:rgba(0, 0, 0, 0.884);
 }
 .pieRocket h1{
@@ -310,8 +311,9 @@ body{
     height: 50px;
     margin-top: 220px;
     margin-bottom: 0px;
-    margin-left: 1100px;
     padding-top: 15px;
+    padding-right: 10px;
+    text-align: right;
     
 }
 
