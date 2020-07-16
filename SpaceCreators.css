@@ -208,9 +208,9 @@ input:hover{
 }
 */
 *{
-
-    font-weight: 100;
-    font-family: sans-serif;
+    
+    
+    
 }
 body{
     background-image: url("Falcon9.jpg");
@@ -219,12 +219,14 @@ body{
      
 }
 .login{
+    font-family: 'Nunito', sans-serif;
     background: rgba(0, 0, 0, 0.253);
     margin: 50px auto;
     padding: 2%;
     border: 1px solid rgba(255, 255, 255, 0.37);
     border-radius: 10px;
     width: 50%;
+    font-weight: bold;
 }
 .usuario{
     
@@ -241,7 +243,7 @@ body{
     margin: 10px auto;
     display: block;
     text-align: center;
-    color: rgba(255, 255, 255, 0.425);
+    color: rgba(255, 238, 0, 0.5);
 }
 .usuarioInput{
     display: block;
@@ -268,7 +270,7 @@ body{
     margin: 10px auto;
     display: block;
     text-align: center;
-    color: rgba(255, 255, 255, 0.425);
+    color: rgba(255, 238, 0, 0.5);
 }
 .contraseñaInput{
     display: block;
@@ -301,12 +303,13 @@ body{
 }
 .pieRocket{
     margin-top: 400px;
-    
     background:rgba(0, 0, 0, 0.884);
+    font-family: 'Nunito', sans-serif;
+    
 }
 .pieRocket h1{
     
-    
+    font-weight: normal;
     color: blanchedalmond;
     font-size: 20px;
     height: 50px;
@@ -317,5 +320,52 @@ body{
     text-align: right;
     
 }
+
+
+.sectionHeader{
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    height: 115px;
+    background: rgba(0, 0, 0, 0.212);
+    padding:20px;
+    
+}
+.sectionHeaderImgCohete{
+    height: 80px; 
+    padding-left: 10px;
+    
+}
+.sectionHeaderImgLetras{
+    height: 50px; 
+    margin-bottom: 15px;
+    
+}
+
+.sectionHeaderNav{
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 5%;
+    
+    
+}
+.sectionHeaderNavOl li{
+    opacity: 0.6;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.sectionHeaderNavOl li:hover{
+    opacity: 1;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+}
+
+
+
+
+
 
 /*minuto 3h 43 min*/
